@@ -71,6 +71,7 @@ There was a trap tho; The json was always in a json array and some later layers 
 if you would only parse the first item in the array and ignore the other ones, you would get the flag `THIS-ISNO-THEF-LAGR-EALL-Y...`, by parsing & processing ALL of the array entries you did get the right flag.
     
 Operations:  
+
 | op   | Description                                                                             |
 | ---- | --------------------------------------------------------------------------------------- |
 | map  | Generate a lookup table with the fields mapFrom & mapTo, apply the table to the content |
