@@ -72,7 +72,7 @@ if you would only parse the first item in the array and ignore the other ones, y
     
 Operations:  
 | op   | Description                                                                             |  
-|------|-----------------------------------------------------------------------------------------|  
+| ---- | --------------------------------------------------------------------------------------- |  
 | map  | Generate a lookup table with the fields mapFrom & mapTo, apply the table to the content |  
 | gzip | Base64 decode the content and gzip decompress it afterwards                             |  
 | b64  | Base64 decode the content                                                               |  
