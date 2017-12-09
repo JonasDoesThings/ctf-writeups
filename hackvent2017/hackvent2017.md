@@ -71,15 +71,15 @@ There was a trap tho; The json was always in a json array and some later layers 
 if you would only parse the first item in the array and ignore the other ones, you would get the flag `THIS-ISNO-THEF-LAGR-EALL-Y...`, by parsing & processing ALL of the array entries you did get the right flag.
     
 Operations:  
-| op   | Description                                                                             |  
-| ---- | --------------------------------------------------------------------------------------- |  
-| map  | Generate a lookup table with the fields mapFrom & mapTo, apply the table to the content |  
-| gzip | Base64 decode the content and gzip decompress it afterwards                             |  
-| b64  | Base64 decode the content                                                               |  
-| nul  | Nothing, just read the content                                                          |  
-| xor  | Apply a xor to every byte in the content with the given mask                            |  
-| rev  | Reverse the content                                                                     |  
-| flag | Nothing, you've got the flag                                                            |  
+| op   | Description                                                                             |
+| ---- | --------------------------------------------------------------------------------------- |
+| map  | Generate a lookup table with the fields mapFrom & mapTo, apply the table to the content |
+| gzip | Base64 decode the content and gzip decompress it afterwards                             |
+| b64  | Base64 decode the content                                                               |
+| nul  | Nothing, just read the content                                                          |
+| xor  | Apply a xor to every byte in the content with the given mask                            |
+| rev  | Reverse the content                                                                     |
+| flag | Nothing, you've got the flag                                                            |
 
 Flag: HV17-Ip11-9CaB-JvCf-d5Nq-ffyi  
 Reached Points: 3/3
