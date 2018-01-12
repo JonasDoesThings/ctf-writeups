@@ -59,6 +59,7 @@ Day was a small reverse-engineering challenge where you had to find the wanted i
 In order to get the flag, you had to replace `__1337`, which will now print the code `C=SANTA("?") if C=="1787569".....`, which means the wanted input is 1787569.  
 Replace the print with `__1337` again and you will get the flag.
   
+Script: day8.py  
 Flag: HV17-th1s-ju5t-l1k3-j5sf-uck!  
 Reached Points: 3/3
 
@@ -81,9 +82,27 @@ Operations:
 | xor  | Apply a xor to every byte in the content with the given mask                            |
 | rev  | Reverse the content                                                                     |
 | flag | Nothing, you've got the flag                                                            |
-
+  
+Script: day9.py  
 Flag: HV17-Ip11-9CaB-JvCf-d5Nq-ffyi  
 Reached Points: 3/3
+
+### Day 10:
+Day 10 was a simple game of tic tac toe you had to win 100 times.  
+I found out that the tactic 7-3-9-6 would always result in a win, so I made a simple Python script which would send the field-numbers 100 times to the gameserver via a socket.
+  
+Script: day10.py  
+Flag: HV17-y0ue-kn0w-7h4t-g4me-sure  
+Reached Points: 3/3
+  
+### Day 11:
+I've used the tool https://www.dcode.fr/modular-equation-solver in order to solve the equation. After the result was converted to hex, and then to ascii you got the flag. 
+  
+Flag: HV17-zQBz-AwDg-1FEL-rUE9-GKgq  
+Reached Points: 4/4
+  
+### Where are the other days?
+Due to challenges getting longer & longer. I kinda lost motivation halfway through the Hackvent. Maybe next year I'll do the whole HV x(
 
 ## Hidden Challenges:  
 ### Hidden 1:  
